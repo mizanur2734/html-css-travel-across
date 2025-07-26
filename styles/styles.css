@@ -39,6 +39,7 @@
 .header p {
     margin: 18px 0px;
 }
+
 /* input-field */
 .search-wrapper {
     display: flex;
@@ -72,24 +73,29 @@
     cursor: pointer;
     border-radius: 40px;
 }
+
 /* features section */
-.row{
+.row {
     display: flex;
     justify-content: center;
     column-gap: 10px;
 }
-.features{
-    padding: 100px 40px;
+
+.features {
+    padding: 100px 20px;
 }
-.features h1{
+
+h1{
     text-align: center;
     padding-bottom: 30px;
     font-size: 55px;
 }
-.feature-img img{
-   width: 300px;
+
+.feature-img img {
+    width: 300px;
 }
-.price{
+
+.price {
     width: 50px;
     height: 50px;
     background: #ff5722;
@@ -102,10 +108,12 @@
     left: 20px;
     bottom: -20px;
 }
-.feature-img{
+
+.feature-img {
     position: relative;
 }
-.rating{
+
+.rating {
     padding: 3px;
     float: right;
     background: #fff;
@@ -113,30 +121,76 @@
     left: 206px;
     position: absolute;
 }
-.features .fa{
+
+.features .fa {
     font-size: 15px;
     color: #ff5722;
 }
-.feature-details{
+
+.feature-details {
     padding: 20px;
     text-align: justify;
 }
-.feature-details h4{
+
+.feature-details h4 {
     margin-top: 10px;
     font-weight: 600px;
     font-size: 20px;
 }
-.feature-details p{
-   margin-top: 2px;
-   max-width: 275px;
-   padding: 0px;
+
+.feature-details p {
+    margin-top: 2px;
+    max-width: 275px;
+    padding: 0px;
 }
-.feature-details .fa{
+
+.feature-details .fa {
     margin-right: 5px;
     margin-top: 20px;
-}  
-.feature-box{
+}
+
+.feature-box {
     box-shadow: 0 0 10px 1px rgb(37, 37, 214, 0.18);
     margin-bottom: 30px;
 }
 
+/* gallery section */
+.gallery{
+    padding: 100px 0px;
+    background: #efefef;
+}
+.gallery-box img{
+    width: 220px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+    column-gap: 10px;
+}
+.gallery-box img:hover{
+    transform: scale(1.1);
+}
+.gallery-box h4{
+    width: 200px;
+    text-align: center;
+    font-weight: 600;
+    position: absolute;
+    color: #fff;
+    text-shadow: -2px 2px 2px #000;
+    font-size: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.gallery-box{
+    position: relative;
+    margin-bottom: 30px;
+}
+/* banner-section */
+.banner{
+    height: 500px;
+    background-image: url(../images/banner2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
